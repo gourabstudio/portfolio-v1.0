@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Dosis', sans-serif;
+}
+
+.G{
+  font-size: 1.85rem;
+  color: cornflowerblue;
+}
+.button{
+  background-color: #4458dc;
+  color: white;
+}
+.button:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+.brand-area .single-brand{
+padding: 30px;
+}
+.para{
+  font-size: 20px;
+}
+.site-main .services-area{
+  padding: 2rem 0rem;
+}
+.site-main .services-area .services{
+  margin: .5rem 0rem;
+  background: rgba(248, 252, 253, 0.973);
+  transition: box-shadow .7s ease;
+}
+.site-main .services-area .services:hover{
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 1px 4px;
+  /*box-shadow: 0px 10px 14px 14px white;*/
+}
+.footer-text{
+  word-spacing: .3rem;
+  padding-bottom: 2rem;
+}
+@media only screen and (max-width: 576px) {
+.brand-area .single-brand {
+padding: 20px;
+}
+}
